@@ -1,0 +1,9 @@
+server:
+  port: 12345
+spring:
+  application:
+    name: hystrix-log
+eureka:
+  client:
+    service-url:
+      defautZone: http://localhost:8761
